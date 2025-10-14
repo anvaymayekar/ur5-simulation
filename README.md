@@ -153,8 +153,8 @@ The simulation is implemented in a **modular and object-oriented style** with cl
 ## 📂 Project Structure
 
 ```
-UR5_PickPlace_GUI/
-├── UR5_PickPlace_GUI.m    # Main simulation function
+ur5-simulation/
+├── project.m    # Main simulation function
 ├── sample/
 │   └── demo.gif           # Demonstration GIF
 └── README.md              # This file
