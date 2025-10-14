@@ -1,8 +1,8 @@
 function UR5_PickPlace_GUI()
-    %% Initialize Robot
+    % Initialize Robot
     robot = loadrobot("universalUR5","DataFormat","row","Gravity",[0 0 -9.81]);
     
-    %% Create Control GUI with dark theme
+    % Create Control GUI with dark theme
     fig = figure('Name', 'UR5 Pick and Place Control Panel', 'Position', [100 100 520 900], ...
         'MenuBar', 'none', 'NumberTitle', 'off', 'Color', [0.15 0.15 0.18], ...
         'Resize', 'off');
