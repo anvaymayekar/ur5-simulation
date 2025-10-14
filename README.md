@@ -154,7 +154,7 @@ The simulation is implemented in a **modular and object-oriented style** with cl
 
 ```
 ur5-simulation/
-├── project.m    # Main simulation function
+├── project.m              # Main simulation function
 ├── sample/
 │   └── demo.gif           # Demonstration GIF
 └── README.md              # This file
